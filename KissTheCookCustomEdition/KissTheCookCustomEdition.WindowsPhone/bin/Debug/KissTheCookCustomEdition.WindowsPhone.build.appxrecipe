@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>W510-PC</Machine>
+    <WindowsUser>W510</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>4ed367df-279e-4199-8b6a-a407b9579fd1</PackageIdentityName>
+    <IntermediateOutputPath>E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.WindowsPhone\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.WindowsPhone\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.WindowsPhone\bin\Debug\KissTheCookCustomEdition.WindowsPhone.exe">
+      <PackagePath>KissTheCookCustomEdition.WindowsPhone.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.WindowsPhone\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.WindowsPhone\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.WindowsPhone\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.WindowsPhone\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.WindowsPhone\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Shared\Images\connection.png">
+      <PackagePath>Images\connection.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Shared\Images\fb-login.png">
+      <PackagePath>Images\fb-login.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Shared\Images\mushroom.png">
+      <PackagePath>Images\mushroom.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Shared\Images\photo.png">
+      <PackagePath>Images\photo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Shared\Images\food.jpg">
+      <PackagePath>Images\food.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Shared\Images\tasty-food.jpg">
+      <PackagePath>Images\tasty-food.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Shared\Images\wallpaper-food.jpg">
+      <PackagePath>Images\wallpaper-food.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.WindowsPhone\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.WindowsPhone\bin\Debug\Views\GetAvaiableTimeControl.xbf">
+      <PackagePath>Views\GetAvaiableTimeControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.WindowsPhone\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.WindowsPhone\bin\Debug\Pages\NoTimePage.xbf">
+      <PackagePath>Pages\NoTimePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.WindowsPhone\bin\Debug\KissTheCookCustomEdition.WindowsPhone.xr.xml">
+      <PackagePath>KissTheCookCustomEdition.WindowsPhone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.WindowsPhone\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

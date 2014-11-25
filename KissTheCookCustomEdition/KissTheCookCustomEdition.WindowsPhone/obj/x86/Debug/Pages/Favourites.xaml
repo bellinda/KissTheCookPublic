@@ -1,0 +1,72 @@
+﻿<Page
+    x:Class="KissTheCookCustomEdition.Pages.BasicPag"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:KissTheCookCustomEdition.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title Panel -->
+        <StackPanel Grid.Row="0" Margin="19,0,0,0">
+            <TextBlock Text="{StaticResource AppName}" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,0"/>
+            <TextBlock Text="Любими" Margin="0,20,0,26.5" FontFamily="Gabriola" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
+        </StackPanel>
+
+        <!--TODO: Content should be placed within the following grid-->
+        <StackPanel Grid.Row="1">
+            <TextBlock Name="noRecipesInfo" Text="Няма рецепти, добавени в графа любими" FontFamily="Gabriola" FontSize="36" Visibility="Collapsed" TextWrapping="Wrap"></TextBlock>
+            <ListView Name="listView" 
+                  Background="Transparent"
+                  Foreground="White"
+                  VerticalContentAlignment="Center"
+                  IsItemClickEnabled="True">
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="ListViewItem">
+                        <Setter Property="FontSize" Value="30"></Setter>
+                        <Setter Property="BorderBrush" Value="Gray"></Setter>
+                        <Setter Property="BorderThickness" Value="2"></Setter>
+                        <Setter Property="Padding" Value="0"></Setter>
+                        <Setter Property="Margin" Value="0"></Setter>
+                        <Setter Property="FontFamily" Value="Gabriola"></Setter>
+                        <!--Comic Sans MS-->
+                    </Style>
+                </ListView.ItemContainerStyle>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.3*"></ColumnDefinition>
+                                <ColumnDefinition Width="0.7*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0">
+                                <Image.Source>
+                                    <BitmapImage UriSource="{Binding ImageURL}"/>
+                                </Image.Source>
+                            </Image>
+                            <StackPanel Grid.Column="1" Margin="20, 0, 0, 0">
+                                <TextBlock Text="{Binding Title}" TextWrapping="WrapWholeWords"></TextBlock>
+                                <TextBlock Text="{Binding Time}" FontSize="24"></TextBlock>
+                            </StackPanel>
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+    </Grid>
+</Page>
+

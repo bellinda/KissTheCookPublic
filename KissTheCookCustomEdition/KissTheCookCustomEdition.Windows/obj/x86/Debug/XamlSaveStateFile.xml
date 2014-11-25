@@ -1,0 +1,8 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="e:\visual studio projects\kissthecookcustomedition\kissthecookcustomedition\kissthecookcustomedition.windows\obj\x86\debug\intermediatexaml\kissthecookcustomedition.windows.exe" HashGuid="6b4b48ee-7fb2-48a8-696f-966f67fc3b60" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\microsoft.vclibs\12.0\references\commonconfiguration\neutral\platform.winmd" HashGuid="58b6b6d1-928e-9908-9804-eb460e5e101b" />
+    <ReferenceAssembly PathName="e:\visual studio projects\kissthecookcustomedition\packages\facebook.6.8.0\lib\win8\facebook.dll" HashGuid="2994024a-c266-83e1-c718-df8bd8320f21" />
+    <ReferenceAssembly PathName="e:\visual studio projects\kissthecookcustomedition\packages\htmlagilitypack.1.4.9\lib\netcore45\htmlagilitypack.dll" HashGuid="e8cf0f9d-ac45-cdb5-bce5-7ce81a506bdf" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

@@ -1,0 +1,1 @@
+E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\KissTheCookCustomEdition.Windows.csproj;x86

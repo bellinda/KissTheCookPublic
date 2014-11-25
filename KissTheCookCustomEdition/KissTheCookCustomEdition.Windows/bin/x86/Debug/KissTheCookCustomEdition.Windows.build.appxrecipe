@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>W510-PC</Machine>
+    <WindowsUser>W510</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>d6d6bce3-8326-4239-89f0-c7113ab0cfd2</PackageIdentityName>
+    <IntermediateOutputPath>E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\obj\x86\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\bin\x86\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\bin\x86\Debug\KissTheCookCustomEdition.Windows.exe">
+      <PackagePath>KissTheCookCustomEdition.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\packages\Facebook.6.8.0\lib\win8\Facebook.dll">
+      <PackagePath>Facebook.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\packages\HtmlAgilityPack.1.4.9\lib\NetCore45\HtmlAgilityPack.dll">
+      <PackagePath>HtmlAgilityPack.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\SQLite.WinRT81\3.8.7.2\Redist\Debug\x86\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Shared\Images\connection.png">
+      <PackagePath>Images\connection.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Shared\Images\fb-login.png">
+      <PackagePath>Images\fb-login.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Shared\Images\input.png">
+      <PackagePath>Images\input.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Shared\Images\invalid-input.png">
+      <PackagePath>Images\invalid-input.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Shared\Images\mushroom.png">
+      <PackagePath>Images\mushroom.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Shared\Images\photo.png">
+      <PackagePath>Images\photo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Shared\Images\star.png">
+      <PackagePath>Images\star.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Shared\Images\camera.ico">
+      <PackagePath>Images\camera.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Shared\Images\food.jpg">
+      <PackagePath>Images\food.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Shared\Images\tasty-food.jpg">
+      <PackagePath>Images\tasty-food.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Shared\Images\wallpaper-food.jpg">
+      <PackagePath>Images\wallpaper-food.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Shared\Music\music.mp3">
+      <PackagePath>Music\music.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\bin\x86\Debug\Views\GetAvaiableTimeControl.xbf">
+      <PackagePath>Views\GetAvaiableTimeControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\bin\x86\Debug\Pages\AboutPage.xbf">
+      <PackagePath>Pages\AboutPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\bin\x86\Debug\Pages\AllRecipesPage.xbf">
+      <PackagePath>Pages\AllRecipesPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\bin\x86\Debug\Pages\Favourites.xbf">
+      <PackagePath>Pages\Favourites.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\bin\x86\Debug\Pages\MyRecepies.xbf">
+      <PackagePath>Pages\MyRecepies.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\bin\x86\Debug\Pages\NoTimePage.xbf">
+      <PackagePath>Pages\NoTimePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\bin\x86\Debug\Pages\RecipeDetailsPage.xbf">
+      <PackagePath>Pages\RecipeDetailsPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\bin\x86\Debug\Pages\RestaurantsPage.xbf">
+      <PackagePath>Pages\RestaurantsPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\bin\x86\Debug\KissTheCookCustomEdition.Windows.xr.xml">
+      <PackagePath>KissTheCookCustomEdition.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.12.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.12.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.12.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

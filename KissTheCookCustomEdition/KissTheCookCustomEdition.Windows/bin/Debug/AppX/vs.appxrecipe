@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>W510-PC</Machine>
+    <WindowsUser>W510</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>d6d6bce3-8326-4239-89f0-c7113ab0cfd2</PackageIdentityName>
+    <IntermediateOutputPath>E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>5578CD8C00C262CAA4070CF84ED50AC16D7EF8A45F35FC898FFF6C3C6F29048D</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>d6d6bce3-8326-4239-89f0-c7113ab0cfd2_1.0.0.0_neutral__k6w8cejfph6q2</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>d6d6bce3-8326-4239-89f0-c7113ab0cfd2_k6w8cejfph6q2!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>d6d6bce3-8326-4239-89f0-c7113ab0cfd2</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=W510</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-23T22:04:04.762</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\bin\Debug\KissTheCookCustomEdition.Windows.exe">
+      <PackagePath>KissTheCookCustomEdition.Windows.exe</PackagePath>
+      <Modified>2014-11-23T22:06:57.529</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\packages\HtmlAgilityPack.1.4.9\lib\NetCore45\HtmlAgilityPack.dll">
+      <PackagePath>HtmlAgilityPack.dll</PackagePath>
+      <Modified>2014-11-23T21:04:38.777</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T08:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T08:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T08:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T08:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Shared\Images\connection.png">
+      <PackagePath>Images\connection.png</PackagePath>
+      <Modified>2014-11-22T11:31:01.781</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Shared\Images\fb-login.png">
+      <PackagePath>Images\fb-login.png</PackagePath>
+      <Modified>2014-11-23T02:02:06.253</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Shared\Images\invalid-input.png">
+      <PackagePath>Images\invalid-input.png</PackagePath>
+      <Modified>2014-11-23T20:22:12.417</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Shared\Images\mushroom.png">
+      <PackagePath>Images\mushroom.png</PackagePath>
+      <Modified>2014-11-23T17:18:45.766</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Shared\Images\photo.png">
+      <PackagePath>Images\photo.png</PackagePath>
+      <Modified>2014-11-22T15:56:33.376</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Shared\Images\food.jpg">
+      <PackagePath>Images\food.jpg</PackagePath>
+      <Modified>2014-11-23T09:33:15.672</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Shared\Images\tasty-food.jpg">
+      <PackagePath>Images\tasty-food.jpg</PackagePath>
+      <Modified>2014-11-23T09:54:49.202</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Shared\Images\wallpaper-food.jpg">
+      <PackagePath>Images\wallpaper-food.jpg</PackagePath>
+      <Modified>2014-11-23T15:49:12.599</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-11-23T20:00:39.023</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\bin\Debug\Views\GetAvaiableTimeControl.xbf">
+      <PackagePath>Views\GetAvaiableTimeControl.xbf</PackagePath>
+      <Modified>2014-11-23T22:06:56.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-11-23T20:00:39.030</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\bin\Debug\Pages\NoTimePage.xbf">
+      <PackagePath>Pages\NoTimePage.xbf</PackagePath>
+      <Modified>2014-11-23T22:06:56.518</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\bin\Debug\KissTheCookCustomEdition.Windows.xr.xml">
+      <PackagePath>KissTheCookCustomEdition.Windows.xr.xml</PackagePath>
+      <Modified>2014-11-23T22:06:56.465</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Visual Studio Projects\KissTheCookCustomEdition\KissTheCookCustomEdition\KissTheCookCustomEdition.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-11-23T22:04:04.225</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

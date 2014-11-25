@@ -1,0 +1,9 @@
+﻿<Application
+    x:Class="KissTheCookCustomEdition.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:KissTheCookCustomEdition">
+    <Application.Resources>
+        <x:String x:Key="AppName">Kiss The Cook</x:String>
+    </Application.Resources>
+</Application>
