@@ -1,0 +1,33 @@
+﻿<UserControl
+    x:Class="KissTheCookCustomEdition.Views.GetAvaiableTimeControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:KissTheCookCustomEdition.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="800"
+    d:DesignWidth="550">
+
+    <Grid Height="100">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0" Text="Часове:" Margin="0,0,10,0"  FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Right"></TextBlock>
+            <TextBox Grid.Column="1" FontSize="24" Margin="4,10,6,-16" Name="availableHoursTextBox" PlaceholderText="" Height="40"></TextBox>
+            <TextBlock Text="Минути:" Margin="0,88,1,-90" FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+            <TextBox Grid.Column="1" FontSize="24" Name="availableMinutesTextBox" Margin="4,88,10,-103"/>
+        </Grid>
+        <Button Grid.Row="2" Content="Сортирай" Margin="11,155,0,-174" Height="52" Width="150" Click="Button_Click"></Button>
+    </Grid>
+</UserControl>
